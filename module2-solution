@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>my assignment</title>
+
+
+<style >
+	*{
+		box-sizing: border-box;
+	}
+	
+	 p1{
+		margin :10px;
+		width : 31%;
+		background-color: grey;
+		border: solid black;
+       float: left;
+        padding-left: 10px;
+
+    }
+	#h1
+	{
+		text-align: right;
+        margin: 0;
+    }
+	#h1 span{
+		background-color: pink;
+		border-left:solid black;
+		border-bottom: solid black;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#h2
+	{
+		text-align: right;
+		margin: 0;
+	}
+	#h2 span
+	{
+		background-color: brown;
+		border-left:solid black;
+		border-bottom: solid black;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#h3
+	{
+		text-align: right;
+		margin: 0;
+	}
+	#h3 span
+	{
+		background-color: yellow;
+		border-left:solid black;
+		border-bottom: solid black;
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+@media (min-width: 992px)
+	{
+		p1{
+			width: 30%;
+			float : left;
+		}
+	}
+@media (min-width: 768px) and (max-width:991px )
+{
+	p1{
+		width : 45%;
+		float: left;
+	}
+	#box3{
+		width: 92%;
+	}
+}
+@media (max-width: 767px)
+{
+	#box1
+	{
+		width:100%;
+	}
+	#box2
+	{
+		width: 100%;
+
+	}
+	#box3
+	{
+		width: 100%;
+	}
+}
+
+	
+</style>
+</head>
+<body>
+
+
+ <h1 style="text-align:center" id="h0">OUR MENU</h1>
+ <div id="boxes">
+ <p1 id="box1">
+ 	
+ 		
+ 	
+
+ 		
+ 			<h2 id="h1"><span>chicken</span></h2>
+ 		<p>Chicken can be prepared in a vast range of ways, including baking, grilling, barbecuing, frying, and boiling, among many others, depending on its purpose. Since the latter half of the 20th century, prepared chicken has become a staple of fast food. Chicken is sometimes cited as being more healthful than red meat, with lower concentrations of cholesterol and saturated fat.</p>
+ 	</p1>
+ 	
+ 
+ <p1 id="box2">
+ 	
+ 		
+ 		<h2  id="h2"><span>sushi</span></h2>
+ 		<p>
+ 		Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.</p>
+ 		
+ </p1>
+<p1 id="box3">
+ 		
+ 	
+ <h2  id="h3"><span>beef</span></h2>
+ 		<p>Most beef skeletal muscle meat can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed (corned beef or beef jerky). Trimmings, on the other hand, are usually mixed with meat from older, leaner (therefore tougher) cattle, are ground, minced or used in sausages. </p>
+ 	
+ </p1>
+</div>
+ </body>
+
+
+</html>
